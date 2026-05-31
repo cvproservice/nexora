@@ -43,48 +43,49 @@
   <!-- Top accent line -->
   <rect x="0" y="0" width="1200" height="4" fill="url(#g1)"/>
 
-  <!-- Logo NEXORA -->
-  <text x="80" y="120" font-family="Arial Black, sans-serif" font-size="72" font-weight="900" letter-spacing="8" fill="url(#g1)" filter="url(#glow)">NEXORA</text>
+  <!-- Logo NEXORA - English OK -->
+  <text x="80" y="110" font-family="Arial Black, sans-serif" font-size="64" font-weight="900" letter-spacing="8" fill="url(#g1)" filter="url(#glow)">NEXORA</text>
 
-  <!-- Tagline -->
-  <text x="80" y="170" font-family="Arial, sans-serif" font-size="22" fill="rgba(255,255,255,0.5)" letter-spacing="2">نيكسورا — وكالة رقمية متكاملة</text>
+  <!-- Tagline Arabic - right to left rendering via unicode bidi -->
+  <text x="1120" y="165" font-family="Arial, sans-serif" font-size="26" fill="rgba(255,255,255,0.6)" text-anchor="end" direction="rtl">نيكسورا — وكالة رقمية متكاملة</text>
 
   <!-- Divider -->
-  <rect x="80" y="195" width="120" height="3" fill="url(#g1)" rx="2"/>
+  <rect x="80" y="180" width="160" height="3" fill="url(#g1)" rx="2"/>
 
-  <!-- Main headline -->
-  <text x="80" y="290" font-family="Arial, sans-serif" font-size="48" font-weight="900" fill="white">تصميم مواقع ومتاجر إلكترونية</text>
-  <text x="80" y="355" font-family="Arial, sans-serif" font-size="48" font-weight="900" fill="white">احترافية في مصر والخليج</text>
+  <!-- Main headline Arabic - right anchored for RTL -->
+  <text x="1120" y="265" font-family="Arial, sans-serif" font-size="50" font-weight="900" fill="white" text-anchor="end" direction="rtl">تصميم مواقع ومتاجر إلكترونية</text>
+  <text x="1120" y="330" font-family="Arial, sans-serif" font-size="50" font-weight="900" fill="white" text-anchor="end" direction="rtl">احترافية في مصر والخليج</text>
 
-  <!-- Sub -->
-  <text x="80" y="420" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.6)">SEO · تصميم مخصص · متاجر · دعم 24/7</text>
+  <!-- Sub Arabic -->
+  <text x="1120" y="390" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.55)" text-anchor="end" direction="rtl">تحسين SEO · تصميم مخصص · متاجر إلكترونية · دعم ٢٤ ساعة</text>
+
+  <!-- Stars row -->
+  <text x="80" y="450" font-family="Arial, sans-serif" font-size="34" fill="#fbbf24">★★★★★</text>
+  <text x="290" y="450" font-family="Arial, sans-serif" font-size="20" fill="rgba(255,255,255,0.7)">4.9 / 5</text>
+  <text x="370" y="450" font-family="Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.45)" direction="rtl">من 180+ عميل سعيد</text>
 
   <!-- Stats boxes -->
-  <rect x="80" y="470" width="180" height="80" rx="12" fill="rgba(0,212,255,0.08)" stroke="rgba(0,212,255,0.25)" stroke-width="1"/>
-  <text x="170" y="505" font-family="Arial Black, sans-serif" font-size="32" font-weight="900" fill="#00d4ff" text-anchor="middle">250+</text>
-  <text x="170" y="530" font-family="Arial, sans-serif" font-size="15" fill="rgba(255,255,255,0.6)" text-anchor="middle">مشروع منجز</text>
+  <rect x="80" y="480" width="185" height="85" rx="14" fill="rgba(0,212,255,0.08)" stroke="rgba(0,212,255,0.3)" stroke-width="1.5"/>
+  <text x="172" y="518" font-family="Arial Black, sans-serif" font-size="34" font-weight="900" fill="#00d4ff" text-anchor="middle">250+</text>
+  <text x="172" y="548" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.6)" text-anchor="middle" direction="rtl">مشروع منجز</text>
 
-  <rect x="280" y="470" width="180" height="80" rx="12" fill="rgba(0,212,255,0.08)" stroke="rgba(0,212,255,0.25)" stroke-width="1"/>
-  <text x="370" y="505" font-family="Arial Black, sans-serif" font-size="32" font-weight="900" fill="#00d4ff" text-anchor="middle">7</text>
-  <text x="370" y="530" font-family="Arial, sans-serif" font-size="15" fill="rgba(255,255,255,0.6)" text-anchor="middle">سنوات خبرة</text>
+  <rect x="285" y="480" width="185" height="85" rx="14" fill="rgba(0,212,255,0.08)" stroke="rgba(0,212,255,0.3)" stroke-width="1.5"/>
+  <text x="377" y="518" font-family="Arial Black, sans-serif" font-size="34" font-weight="900" fill="#00d4ff" text-anchor="middle">7+</text>
+  <text x="377" y="548" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.6)" text-anchor="middle" direction="rtl">سنوات خبرة</text>
 
-  <rect x="480" y="470" width="180" height="80" rx="12" fill="rgba(0,212,255,0.08)" stroke="rgba(0,212,255,0.25)" stroke-width="1"/>
-  <text x="570" y="505" font-family="Arial Black, sans-serif" font-size="32" font-weight="900" fill="#00d4ff" text-anchor="middle">98%</text>
-  <text x="570" y="530" font-family="Arial, sans-serif" font-size="15" fill="rgba(255,255,255,0.6)" text-anchor="middle">رضا العملاء</text>
-
-  <!-- Stars -->
-  <text x="700" y="510" font-family="Arial, sans-serif" font-size="36" fill="#fbbf24">★★★★★</text>
-  <text x="700" y="545" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.5)">180+ عميل سعيد</text>
-
-  <!-- Right decoration circle -->
-  <circle cx="1050" cy="315" r="200" fill="none" stroke="url(#g1)" stroke-width="1" opacity="0.2"/>
-  <circle cx="1050" cy="315" r="150" fill="none" stroke="url(#g1)" stroke-width="1" opacity="0.15"/>
-  <circle cx="1050" cy="315" r="100" fill="url(#g2)" opacity="0.5"/>
-  <text x="1050" y="290" font-family="Arial, sans-serif" font-size="70" text-anchor="middle">🌐</text>
-  <text x="1050" y="370" font-family="Arial Black, sans-serif" font-size="20" fill="rgba(255,255,255,0.7)" text-anchor="middle">nexora.com</text>
+  <rect x="490" y="480" width="185" height="85" rx="14" fill="rgba(0,212,255,0.08)" stroke="rgba(0,212,255,0.3)" stroke-width="1.5"/>
+  <text x="582" y="518" font-family="Arial Black, sans-serif" font-size="34" font-weight="900" fill="#00d4ff" text-anchor="middle">98%</text>
+  <text x="582" y="548" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.6)" text-anchor="middle" direction="rtl">رضا العملاء</text>
 
   <!-- WhatsApp badge -->
-  <rect x="880" y="470" width="240" height="80" rx="40" fill="#25d366"/>
-  <text x="1000" y="505" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="white" text-anchor="middle">تواصل معنا الآن</text>
-  <text x="1000" y="530" font-family="Arial, sans-serif" font-size="15" fill="rgba(255,255,255,0.9)" text-anchor="middle">+20 106 820 4700</text>
+  <rect x="720" y="480" width="260" height="85" rx="42" fill="#25d366"/>
+  <text x="850" y="515" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="white" text-anchor="middle" direction="rtl">تواصل معنا الآن</text>
+  <text x="850" y="545" font-family="Arial, sans-serif" font-size="17" fill="rgba(255,255,255,0.9)" text-anchor="middle">+20 106 820 4700</text>
+
+  <!-- Right decoration -->
+  <circle cx="1060" cy="290" r="195" fill="none" stroke="url(#g1)" stroke-width="1" opacity="0.2"/>
+  <circle cx="1060" cy="290" r="145" fill="none" stroke="url(#g1)" stroke-width="1" opacity="0.15"/>
+  <circle cx="1060" cy="290" r="95" fill="url(#g2)" opacity="0.5"/>
+  <text x="1060" y="265" font-family="Arial, sans-serif" font-size="65" text-anchor="middle">🌐</text>
+  <text x="1060" y="345" font-family="Arial Black, sans-serif" font-size="18" fill="rgba(255,255,255,0.65)" text-anchor="middle">nexora.github.io</text>
 </svg>

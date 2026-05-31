@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cvproservice.github.io/nexora/</loc>
-    <lastmod>2025-05-31</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cvproservice.github.io/nexora/"/>
   </url>
   <url>
     <loc>https://cvproservice.github.io/nexora/افضل-شركة-تصميم-مواقع-في-مصر.html</loc>
-    <lastmod>2025-05-31</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cvproservice.github.io/nexora/افضل-شركة-تصميم-مواقع-في-مصر.html"/>
   </url>
   <url>
     <loc>https://cvproservice.github.io/nexora/تصميم-متجر-الكتروني-في-مصر.html</loc>
-    <lastmod>2025-05-31</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cvproservice.github.io/nexora/تصميم-متجر-الكتروني-في-مصر.html"/>
   </url>
   <url>
     <loc>https://cvproservice.github.io/nexora/تحسين-seo-في-مصر.html</loc>
-    <lastmod>2025-05-31</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://cvproservice.github.io/nexora/تحسين-seo-في-مصر.html"/>
   </url>
 </urlset>
