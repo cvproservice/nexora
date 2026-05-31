@@ -1,0 +1,90 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="100%" style="stop-color:#0d0d2b"/>
+    </linearGradient>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff"/>
+      <stop offset="100%" style="stop-color:#a855f7"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:0.15"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="spot1" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="spot2" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#spot1)"/>
+  <rect width="1200" height="630" fill="url(#spot2)"/>
+
+  <!-- Grid lines subtle -->
+  <line x1="0" y1="210" x2="1200" y2="210" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="420" x2="1200" y2="420" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="630" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="630" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+
+  <!-- Border glow -->
+  <rect x="2" y="2" width="1196" height="626" fill="none" stroke="url(#g1)" stroke-width="2" rx="0" opacity="0.3"/>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#g1)"/>
+
+  <!-- Logo NEXORA -->
+  <text x="80" y="120" font-family="Arial Black, sans-serif" font-size="72" font-weight="900" letter-spacing="8" fill="url(#g1)" filter="url(#glow)">NEXORA</text>
+
+  <!-- Tagline -->
+  <text x="80" y="170" font-family="Arial, sans-serif" font-size="22" fill="rgba(255,255,255,0.5)" letter-spacing="2">نيكسورا — وكالة رقمية متكاملة</text>
+
+  <!-- Divider -->
+  <rect x="80" y="195" width="120" height="3" fill="url(#g1)" rx="2"/>
+
+  <!-- Main headline -->
+  <text x="80" y="290" font-family="Arial, sans-serif" font-size="48" font-weight="900" fill="white">تصميم مواقع ومتاجر إلكترونية</text>
+  <text x="80" y="355" font-family="Arial, sans-serif" font-size="48" font-weight="900" fill="white">احترافية في مصر والخليج</text>
+
+  <!-- Sub -->
+  <text x="80" y="420" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.6)">SEO · تصميم مخصص · متاجر · دعم 24/7</text>
+
+  <!-- Stats boxes -->
+  <rect x="80" y="470" width="180" height="80" rx="12" fill="rgba(0,212,255,0.08)" stroke="rgba(0,212,255,0.25)" stroke-width="1"/>
+  <text x="170" y="505" font-family="Arial Black, sans-serif" font-size="32" font-weight="900" fill="#00d4ff" text-anchor="middle">250+</text>
+  <text x="170" y="530" font-family="Arial, sans-serif" font-size="15" fill="rgba(255,255,255,0.6)" text-anchor="middle">مشروع منجز</text>
+
+  <rect x="280" y="470" width="180" height="80" rx="12" fill="rgba(0,212,255,0.08)" stroke="rgba(0,212,255,0.25)" stroke-width="1"/>
+  <text x="370" y="505" font-family="Arial Black, sans-serif" font-size="32" font-weight="900" fill="#00d4ff" text-anchor="middle">7</text>
+  <text x="370" y="530" font-family="Arial, sans-serif" font-size="15" fill="rgba(255,255,255,0.6)" text-anchor="middle">سنوات خبرة</text>
+
+  <rect x="480" y="470" width="180" height="80" rx="12" fill="rgba(0,212,255,0.08)" stroke="rgba(0,212,255,0.25)" stroke-width="1"/>
+  <text x="570" y="505" font-family="Arial Black, sans-serif" font-size="32" font-weight="900" fill="#00d4ff" text-anchor="middle">98%</text>
+  <text x="570" y="530" font-family="Arial, sans-serif" font-size="15" fill="rgba(255,255,255,0.6)" text-anchor="middle">رضا العملاء</text>
+
+  <!-- Stars -->
+  <text x="700" y="510" font-family="Arial, sans-serif" font-size="36" fill="#fbbf24">★★★★★</text>
+  <text x="700" y="545" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.5)">180+ عميل سعيد</text>
+
+  <!-- Right decoration circle -->
+  <circle cx="1050" cy="315" r="200" fill="none" stroke="url(#g1)" stroke-width="1" opacity="0.2"/>
+  <circle cx="1050" cy="315" r="150" fill="none" stroke="url(#g1)" stroke-width="1" opacity="0.15"/>
+  <circle cx="1050" cy="315" r="100" fill="url(#g2)" opacity="0.5"/>
+  <text x="1050" y="290" font-family="Arial, sans-serif" font-size="70" text-anchor="middle">🌐</text>
+  <text x="1050" y="370" font-family="Arial Black, sans-serif" font-size="20" fill="rgba(255,255,255,0.7)" text-anchor="middle">nexora.com</text>
+
+  <!-- WhatsApp badge -->
+  <rect x="880" y="470" width="240" height="80" rx="40" fill="#25d366"/>
+  <text x="1000" y="505" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="white" text-anchor="middle">تواصل معنا الآن</text>
+  <text x="1000" y="530" font-family="Arial, sans-serif" font-size="15" fill="rgba(255,255,255,0.9)" text-anchor="middle">+20 106 820 4700</text>
+</svg>
