@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>نيكسورا NEXORA | تصميم مواقع ومتاجر إلكترونية في مصر والسعودية والخليج</title>
+<meta name="description" content="نيكسورا أفضل شركة تصميم مواقع إلكترونية في مصر. تصميم متجر إلكتروني احترافي، SEO، استضافة مواقع، تطبيقات جوال. خبرة 7 سنوات، 250+ مشروع منجز. اتصل الآن!">
+<meta name="keywords" content="تصميم موقع إلكتروني, تصميم متجر إلكتروني, شركة تصميم مواقع في مصر, تصميم مواقع احترافية, تصميم موقع في السعودية, تصميم متجر شوبيفاي, تصميم ووكومرس, SEO مصر, تحسين محركات البحث, استضافة مواقع, برمجة مواقع, تطبيقات جوال, تسويق إلكتروني, موقع لشركتي, عايز موقع, كم تكلفة تصميم موقع, افضل شركة مواقع في مصر, تصميم مواقع بالعربي">
+<meta name="author" content="NEXORA نيكسورا">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="نيكسورا | تصميم مواقع ومتاجر إلكترونية احترافية">
+<meta property="og:description" content="أفضل وكالة تصميم مواقع في مصر والخليج. تصميم متاجر، SEO، استضافة. 250+ مشروع منجز. اتصل الآن!">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_EG">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://nexora.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --blue:#00d4ff;
+  --purple:#a855f7;
+  --dark:#0a0a1a;
+  --glass:rgba(255,255,255,0.04);
+  --border:rgba(255,255,255,0.08);
+  --text:#fff;
+  --muted:#9090b0;
+  --g1:linear-gradient(135deg,#00d4ff,#a855f7);
+  --g2:linear-gradient(135deg,#667eea,#764ba2);
+  --radius:16px;
+}
+html{scroll-behavior:smooth;}
+body{font-family:'Tajawal',sans-serif;background:var(--dark);color:var(--text);overflow-x:hidden;line-height:1.7;font-size:16px;}
+
+/* BG */
+.bg-fixed{position:fixed;inset:0;z-index:-1;background:radial-gradient(ellipse 80% 60% at 20% 20%,rgba(0,212,255,0.08) 0%,transparent 60%),radial-gradient(ellipse 60% 80% at 80% 80%,rgba(168,85,247,0.08) 0%,transparent 60%),#0a0a1a;}
+
+/* NAV */
+nav{position:fixed;top:0;width:100%;z-index:1000;padding:1rem 4%;background:rgba(10,10,26,0.85);backdrop-filter:blur(24px);border-bottom:1px solid var(--border);transition:.3s;}
+nav.scrolled{padding:.7rem 4%;background:rgba(10,10,26,0.97);}
+.nav-wrap{max-width:1300px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:1rem;}
+.logo{font-size:1.7rem;font-weight:900;background:var(--g1);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:2px;flex-shrink:0;}
+.nav-links{display:flex;gap:2rem;list-style:none;}
+.nav-links a{color:var(--muted);text-decoration:none;font-size:.95rem;font-weight:500;transition:.3s;white-space:nowrap;}
+.nav-links a:hover{color:var(--blue);}
+.nav-cta{padding:.6rem 1.6rem;background:var(--g1);border:none;border-radius:50px;color:#fff;font-weight:700;font-size:.95rem;cursor:pointer;white-space:nowrap;font-family:'Tajawal',sans-serif;text-decoration:none;transition:.3s;}
+.nav-cta:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(0,212,255,0.35);}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;}
+.hamburger span{width:22px;height:2px;background:var(--blue);border-radius:2px;transition:.3s;display:block;}
+
+/* HERO */
+.hero{min-height:100vh;display:flex;align-items:center;padding:6rem 4% 3rem;position:relative;}
+.hero-wrap{max-width:1300px;margin:0 auto;display:grid;grid-template-columns:1.1fr 0.9fr;gap:3rem;align-items:center;width:100%;}
+.badge{display:inline-flex;align-items:center;gap:.5rem;padding:.45rem 1.2rem;background:rgba(0,212,255,0.08);border:1px solid rgba(0,212,255,0.2);border-radius:50px;font-size:.85rem;color:var(--blue);font-weight:600;margin-bottom:1.2rem;}
+.hero h1{font-size:clamp(2rem,4vw,3.2rem);font-weight:900;line-height:1.25;margin-bottom:1rem;}
+.hero h1 span{background:var(--g1);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.hero-sub{font-size:1.05rem;color:var(--muted);margin-bottom:2rem;max-width:520px;line-height:1.85;}
+.hero-btns{display:flex;gap:1rem;flex-wrap:wrap;}
+.btn{padding:.85rem 2rem;border-radius:50px;font-size:1rem;font-weight:700;cursor:pointer;transition:.3s;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;border:none;font-family:'Tajawal',sans-serif;}
+.btn-primary{background:var(--g1);color:#fff;box-shadow:0 8px 25px rgba(0,212,255,0.25);}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 12px 35px rgba(0,212,255,0.4);}
+.btn-outline{background:transparent;color:#fff;border:1.5px solid var(--border);}
+.btn-outline:hover{border-color:var(--blue);color:var(--blue);}
+.hero-trust{display:flex;gap:2rem;margin-top:2rem;flex-wrap:wrap;}
+.trust-item{display:flex;align-items:center;gap:.5rem;font-size:.85rem;color:var(--muted);}
+.trust-item i{color:var(--blue);}
+
+/* HERO VISUAL - compact cards */
+.hero-visual{display:flex;flex-direction:column;gap:1rem;}
+.hv-card{background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:var(--radius);padding:1.2rem 1.5rem;display:flex;align-items:center;gap:1rem;transition:.3s;cursor:pointer;}
+.hv-card:hover{border-color:rgba(0,212,255,0.3);background:rgba(0,212,255,0.04);transform:translateX(-4px);}
+.hv-icon{width:48px;height:48px;background:var(--g1);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0;}
+.hv-text strong{display:block;font-size:.95rem;margin-bottom:.2rem;}
+.hv-text span{font-size:.8rem;color:var(--muted);}
+.hv-arrow{margin-right:auto;color:var(--muted);font-size:.8rem;transition:.3s;}
+.hv-card:hover .hv-arrow{color:var(--blue);transform:translateX(-3px);}
+
+/* STATS */
+.stats{background:rgba(255,255,255,0.02);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:2.5rem 4%;position:relative;z-index:2;}
+.stats-wrap{max-width:1300px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;text-align:center;}
+.stat-num{font-size:2.5rem;font-weight:900;background:var(--g1);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1;}
+.stat-lbl{font-size:.85rem;color:var(--muted);margin-top:.4rem;}
+
+/* SECTIONS */
+section{padding:5rem 4%;position:relative;z-index:2;}
+.sec-wrap{max-width:1300px;margin:0 auto;}
+.sec-head{text-align:center;margin-bottom:3rem;}
+.sec-tag{display:inline-block;padding:.4rem 1.2rem;background:rgba(0,212,255,0.07);border:1px solid rgba(0,212,255,0.15);border-radius:50px;font-size:.82rem;color:var(--blue);font-weight:600;margin-bottom:.8rem;}
+.sec-title{font-size:clamp(1.6rem,3vw,2.4rem);font-weight:900;margin-bottom:.7rem;}
+.sec-title span{background:var(--g1);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.sec-sub{font-size:1rem;color:var(--muted);max-width:580px;margin:0 auto;line-height:1.8;}
+
+/* SERVICES GRID */
+.srv-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:1.2rem;}
+.srv-card{background:var(--glass);border:1px solid var(--border);border-radius:var(--radius);padding:1.8rem;transition:.35s;cursor:pointer;position:relative;overflow:hidden;}
+.srv-card::after{content:'';position:absolute;inset:0;background:var(--g1);opacity:0;transition:.35s;z-index:0;}
+.srv-card:hover{border-color:rgba(0,212,255,0.35);transform:translateY(-6px);box-shadow:0 16px 40px rgba(0,212,255,0.15);}
+.srv-card:hover::after{opacity:.06;}
+.srv-card>*{position:relative;z-index:1;}
+.srv-ico{width:56px;height:56px;background:var(--g1);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:1rem;}
+.srv-card h3{font-size:1.1rem;font-weight:700;margin-bottom:.6rem;}
+.srv-card p{font-size:.88rem;color:var(--muted);line-height:1.75;margin-bottom:1rem;}
+.srv-cta{display:inline-flex;align-items:center;gap:.4rem;font-size:.85rem;color:var(--blue);font-weight:600;text-decoration:none;transition:.3s;}
+.srv-cta:hover{gap:.7rem;}
+
+/* PROCESS */
+.proc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1.2rem;}
+.proc-card{background:var(--glass);border:1px solid var(--border);border-radius:var(--radius);padding:1.8rem;text-align:center;transition:.3s;position:relative;}
+.proc-card:hover{border-color:rgba(0,212,255,0.3);transform:translateY(-5px);}
+.proc-num{width:56px;height:56px;background:var(--g1);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.4rem;font-weight:900;margin:0 auto 1rem;}
+.proc-card h3{font-size:1rem;font-weight:700;margin-bottom:.5rem;}
+.proc-card p{font-size:.85rem;color:var(--muted);line-height:1.7;}
+
+/* PORTFOLIO */
+.port-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.2rem;}
+.port-card{background:var(--glass);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:.35s;cursor:pointer;}
+.port-card:hover{transform:translateY(-6px);border-color:rgba(0,212,255,0.3);box-shadow:0 16px 40px rgba(0,0,0,0.4);}
+.port-thumb{height:180px;display:flex;align-items:center;justify-content:center;font-size:4rem;background:linear-gradient(135deg,rgba(0,212,255,0.06),rgba(168,85,247,0.06));border-bottom:1px solid var(--border);}
+.port-body{padding:1.3rem;}
+.port-body h3{font-size:1rem;font-weight:700;margin-bottom:.3rem;}
+.port-cat{font-size:.8rem;color:var(--blue);margin-bottom:.7rem;}
+.port-tags{display:flex;flex-wrap:wrap;gap:.4rem;}
+.port-tag{padding:.25rem .7rem;background:rgba(0,212,255,0.08);border:1px solid rgba(0,212,255,0.15);border-radius:20px;font-size:.75rem;color:var(--blue);}
+
+/* PRICING */
+.price-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.2rem;align-items:start;}
+.price-card{background:var(--glass);border:1px solid var(--border);border-radius:var(--radius);padding:2rem;position:relative;transition:.3s;}
+.price-card:hover{transform:translateY(-5px);}
+.price-card.hot{border-color:rgba(0,212,255,0.4);box-shadow:0 0 30px rgba(0,212,255,0.12);}
+.price-badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--g1);padding:.35rem 1.2rem;border-radius:50px;font-size:.8rem;font-weight:700;white-space:nowrap;}
+.price-name{font-size:1.2rem;font-weight:800;margin-bottom:.5rem;}
+.price-val{font-size:2.4rem;font-weight:900;background:var(--g1);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1;}
+.price-note{font-size:.8rem;color:var(--muted);margin:.4rem 0 1.2rem;}
+.price-feats{list-style:none;border-top:1px solid var(--border);padding-top:1.2rem;margin-bottom:1.5rem;display:flex;flex-direction:column;gap:.7rem;}
+.price-feats li{display:flex;align-items:center;gap:.7rem;font-size:.88rem;}
+.price-feats li i{width:18px;text-align:center;flex-shrink:0;}
+.price-feats li i.fa-check{color:#22c55e;}
+.price-feats li i.fa-times{color:#ef4444;}
+.price-feats li.off{color:var(--muted);}
+.price-btn{width:100%;padding:.85rem;background:var(--g1);border:none;border-radius:50px;color:#fff;font-size:1rem;font-weight:700;cursor:pointer;font-family:'Tajawal',sans-serif;transition:.3s;}
+.price-btn:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(0,212,255,0.35);}
+.price-btn.outline{background:transparent;border:1.5px solid var(--border);}
+.price-btn.outline:hover{border-color:var(--blue);color:var(--blue);}
+
+/* REVIEWS */
+.rev-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.2rem;}
+.rev-card{background:var(--glass);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;transition:.3s;}
+.rev-card:hover{border-color:rgba(0,212,255,0.2);transform:translateY(-4px);}
+.rev-stars{color:#fbbf24;font-size:1rem;margin-bottom:.8rem;letter-spacing:2px;}
+.rev-text{font-size:.9rem;color:var(--muted);line-height:1.8;margin-bottom:1.2rem;}
+.rev-author{display:flex;align-items:center;gap:.8rem;}
+.rev-av{width:42px;height:42px;border-radius:50%;background:var(--g1);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:1rem;flex-shrink:0;}
+.rev-name{font-weight:700;font-size:.9rem;}
+.rev-pos{font-size:.78rem;color:var(--muted);}
+
+/* FAQ */
+.faq-box{max-width:820px;margin:0 auto;}
+.faq-item{border:1px solid var(--border);border-radius:var(--radius);margin-bottom:.8rem;overflow:hidden;transition:.3s;background:var(--glass);}
+.faq-item.open{border-color:rgba(0,212,255,0.3);}
+.faq-q{padding:1.2rem 1.5rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:700;font-size:.95rem;gap:1rem;}
+.faq-q:hover{background:rgba(0,212,255,0.03);}
+.faq-ic{color:var(--blue);transition:.3s;flex-shrink:0;}
+.faq-item.open .faq-ic{transform:rotate(180deg);}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease,padding .3s;font-size:.9rem;color:var(--muted);line-height:1.8;}
+.faq-item.open .faq-a{max-height:400px;padding:0 1.5rem 1.3rem;}
+
+/* CONTACT */
+.contact-wrap{display:grid;grid-template-columns:1fr 1.3fr;gap:2.5rem;align-items:start;}
+.contact-info h3{font-size:1.4rem;font-weight:800;margin-bottom:.7rem;}
+.contact-info p{font-size:.9rem;color:var(--muted);line-height:1.8;margin-bottom:1.5rem;}
+.contact-btns{display:flex;flex-direction:column;gap:.8rem;}
+.cbt{display:flex;align-items:center;gap:1rem;padding:1rem 1.3rem;background:var(--glass);border:1px solid var(--border);border-radius:var(--radius);text-decoration:none;color:inherit;transition:.3s;}
+.cbt:hover{border-color:rgba(0,212,255,0.35);transform:translateX(-4px);}
+.cbt-ico{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0;}
+.cbt-ico.wa{background:linear-gradient(135deg,#25d366,#128c7e);}
+.cbt-ico.em{background:var(--g1);}
+.cbt-ico.ph{background:linear-gradient(135deg,#667eea,#764ba2);}
+.cbt-lbl{font-size:.78rem;color:var(--muted);}
+.cbt-val{font-size:.92rem;font-weight:700;}
+
+/* FORM */
+.form-card{background:var(--glass);border:1px solid var(--border);border-radius:var(--radius);padding:2rem;}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+.fg{display:flex;flex-direction:column;gap:.4rem;margin-bottom:1rem;}
+.fg label{font-size:.83rem;color:var(--muted);font-weight:600;}
+.fg input,.fg textarea,.fg select{background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:10px;padding:.8rem 1rem;color:var(--text);font-family:'Tajawal',sans-serif;font-size:.92rem;outline:none;transition:.3s;-webkit-appearance:none;}
+.fg input:focus,.fg textarea:focus,.fg select:focus{border-color:rgba(0,212,255,0.4);box-shadow:0 0 0 3px rgba(0,212,255,0.06);}
+.fg select option{background:#0f0f20;}
+.fg textarea{min-height:110px;resize:vertical;}
+.form-submit{width:100%;padding:.95rem;background:var(--g1);border:none;border-radius:50px;color:#fff;font-size:1rem;font-weight:700;cursor:pointer;font-family:'Tajawal',sans-serif;transition:.3s;display:flex;align-items:center;justify-content:center;gap:.5rem;}
+.form-submit:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,212,255,0.35);}
+
+/* CTA STRIP */
+.cta-strip{background:linear-gradient(135deg,rgba(0,212,255,0.08),rgba(168,85,247,0.08));border-top:1px solid var(--border);border-bottom:1px solid var(--border);text-align:center;}
+.cta-strip h2{font-size:clamp(1.4rem,3vw,2rem);font-weight:900;margin-bottom:.7rem;}
+.cta-strip p{color:var(--muted);margin-bottom:2rem;font-size:.95rem;}
+.cta-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;}
+
+/* BLOG */
+.blog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:1.2rem;}
+.blog-card{background:var(--glass);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:.35s;text-decoration:none;color:inherit;display:block;}
+.blog-card:hover{transform:translateY(-6px);border-color:rgba(0,212,255,.35);box-shadow:0 16px 40px rgba(0,212,255,.12);}
+.blog-thumb{height:140px;display:flex;align-items:center;justify-content:center;font-size:3.5rem;border-bottom:1px solid var(--border);background:linear-gradient(135deg,rgba(0,212,255,.06),rgba(168,85,247,.06));transition:.4s;}
+.blog-card:hover .blog-thumb{font-size:4rem;}
+.blog-body{padding:1.4rem;}
+.blog-tag{display:inline-block;padding:.28rem .85rem;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.15);border-radius:20px;font-size:.75rem;color:var(--blue);font-weight:600;margin-bottom:.7rem;}
+.blog-card h3{font-size:1rem;font-weight:800;line-height:1.5;margin-bottom:.5rem;}
+.blog-card p{font-size:.82rem;color:var(--muted);line-height:1.7;margin-bottom:.9rem;}
+.blog-meta{display:flex;align-items:center;justify-content:space-between;font-size:.77rem;color:var(--muted);}
+.blog-read{display:flex;align-items:center;gap:.35rem;color:var(--blue);font-weight:600;}
+/* FOOTER */
+footer{background:rgba(5,5,15,.95);border-top:1px solid var(--border);padding:3.5rem 4% 1.5rem;z-index:2;position:relative;}
+.foot-grid{max-width:1300px;margin:0 auto;display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr 1fr;gap:2rem;margin-bottom:2.5rem;}
+.foot-brand .logo{font-size:1.6rem;margin-bottom:.8rem;display:block;}
+.foot-brand p{font-size:.85rem;color:var(--muted);line-height:1.8;margin-bottom:1.2rem;}
+.socials{display:flex;gap:.6rem;}
+.soc{width:38px;height:38px;background:var(--glass);border:1px solid var(--border);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--muted);text-decoration:none;font-size:.9rem;transition:.3s;}
+.soc:hover{background:var(--g1);border-color:transparent;color:#fff;transform:translateY(-2px);}
+.foot-col h4{font-size:.9rem;font-weight:700;color:var(--blue);margin-bottom:1rem;}
+.foot-links{list-style:none;display:flex;flex-direction:column;gap:.6rem;}
+.foot-links a{font-size:.83rem;color:var(--muted);text-decoration:none;transition:.3s;}
+.foot-links a:hover{color:var(--blue);}
+.foot-bottom{max-width:1300px;margin:0 auto;padding-top:1.5rem;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.8rem;font-size:.8rem;color:var(--muted);}
+.foot-bottom a{color:var(--blue);text-decoration:none;}
+
+/* FLOAT */
+.wa-float{position:fixed;bottom:1.5rem;left:1.5rem;z-index:999;width:58px;height:58px;background:#25d366;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.7rem;color:#fff;text-decoration:none;box-shadow:0 5px 20px rgba(37,211,102,.5);animation:waPulse 2.5s infinite;}
+@keyframes waPulse{0%,100%{box-shadow:0 5px 20px rgba(37,211,102,.5);}50%{box-shadow:0 5px 30px rgba(37,211,102,.8),0 0 0 12px rgba(37,211,102,.1);}}
+.wa-float:hover{transform:scale(1.1);}
+.scroll-up{position:fixed;bottom:1.5rem;right:1.5rem;z-index:999;width:44px;height:44px;background:var(--g1);border:none;border-radius:50%;color:#fff;font-size:1rem;cursor:pointer;opacity:0;transition:.3s;box-shadow:0 4px 15px rgba(0,212,255,.3);}
+.scroll-up.show{opacity:1;}
+.scroll-up:hover{transform:translateY(-2px);}
+
+/* TOAST */
+.toast{position:fixed;bottom:5rem;left:50%;transform:translateX(-50%) translateY(30px);background:rgba(10,10,30,.95);border:1px solid rgba(0,212,255,.3);color:#fff;padding:.85rem 1.8rem;border-radius:50px;font-size:.9rem;font-weight:600;z-index:9999;opacity:0;transition:.4s;pointer-events:none;white-space:nowrap;}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+
+/* TECH */
+.tech-wrap{display:flex;flex-wrap:wrap;gap:.7rem;justify-content:center;}
+.tech{padding:.55rem 1.3rem;background:var(--glass);border:1px solid var(--border);border-radius:50px;font-size:.83rem;font-weight:600;display:flex;align-items:center;gap:.5rem;transition:.3s;cursor:default;}
+.tech:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-2px);}
+.tech i{color:var(--blue);}
+
+/* WHY US */
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1.2rem;}
+.why-card{background:var(--glass);border:1px solid var(--border);border-radius:var(--radius);padding:1.8rem;text-align:center;transition:.3s;}
+.why-card:hover{border-color:rgba(0,212,255,.3);transform:translateY(-5px);}
+.why-num{font-size:2.8rem;font-weight:900;background:var(--g1);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1;margin-bottom:.7rem;}
+.why-card h3{font-size:1rem;font-weight:700;margin-bottom:.4rem;}
+.why-card p{font-size:.83rem;color:var(--muted);line-height:1.7;}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .hero-wrap{grid-template-columns:1fr;}
+  .hero-visual{display:none;}
+  .contact-wrap{grid-template-columns:1fr;}
+  .foot-grid{grid-template-columns:1fr 1fr;}
+}
+@media(max-width:700px){
+  .nav-links{display:none;position:fixed;top:56px;right:0;left:0;background:rgba(10,10,26,.98);flex-direction:column;padding:1.5rem 4%;gap:1.2rem;border-bottom:1px solid var(--border);}
+  .nav-links.open{display:flex;}
+  .nav-cta{display:none;}
+  .hamburger{display:flex;}
+  .stats-wrap{grid-template-columns:repeat(2,1fr);}
+  .form-row{grid-template-columns:1fr;}
+  .foot-grid{grid-template-columns:1fr;}
+  .cta-btns{flex-direction:column;align-items:center;}
+}
+</style>
+</head>
+<body>
+<div class="bg-fixed"></div>
+
+<a href="https://wa.me/201068204700" class="wa-float" target="_blank" title="واتساب"><i class="fab fa-whatsapp"></i></a>
+<button class="scroll-up" id="sup" onclick="scrollTo({top:0,behavior:'smooth'})"><i class="fas fa-chevron-up"></i></button>
+<div class="toast" id="toast"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="nav-wrap">
+    <div class="logo">NEXORA</div>
+    <ul class="nav-links" id="navlinks">
+      <li><a href="#services">الخدمات</a></li>
+      <li><a href="#portfolio">أعمالنا</a></li>
+      <li><a href="#pricing">الأسعار</a></li>
+      <li><a href="#reviews">آراء العملاء</a></li>
+      <li><a href="#faq">الأسئلة</a></li>
+      <li><a href="#blog">المدونة</a></li>
+      <li><a href="#contact">تواصل</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">ابدأ مشروعك</a>
+    <div class="hamburger" id="hbg"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-wrap">
+    <div>
+      <div class="badge"><i class="fas fa-bolt"></i> وكالة رقمية متكاملة</div>
+      <h1>موقعك هو<br><span>واجهة عملك</span><br>أمام العالم</h1>
+      <p class="hero-sub">نصمم مواقع ومتاجر إلكترونية تحوّل الزوار إلى عملاء فعليين. تصميم احترافي، سرعة فائقة، وSEO قوي يظهرك في أول نتائج جوجل.</p>
+      <div class="hero-btns">
+        <a href="https://wa.me/201068204700?text=مرحباً،%20أريد%20تصميم%20موقع%20إلكتروني%20احترافي" class="btn btn-primary" target="_blank"><i class="fab fa-whatsapp"></i> تحدث معنا الآن</a>
+        <a href="#portfolio" class="btn btn-outline"><i class="fas fa-eye"></i> شاهد أعمالنا</a>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-item"><i class="fas fa-check-circle"></i> 250+ مشروع منجز</div>
+        <div class="trust-item"><i class="fas fa-check-circle"></i> 7 سنوات خبرة</div>
+        <div class="trust-item"><i class="fas fa-check-circle"></i> دعم 24/7</div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hv-card" onclick="waService('تصميم موقع احترافي')">
+        <div class="hv-icon">🌐</div>
+        <div class="hv-text"><strong>تصميم مواقع احترافية</strong><span>متجاوبة وسريعة التحميل</span></div>
+        <i class="fas fa-arrow-left hv-arrow"></i>
+      </div>
+      <div class="hv-card" onclick="waService('تصميم متجر إلكتروني')">
+        <div class="hv-icon">🛒</div>
+        <div class="hv-text"><strong>متاجر إلكترونية متكاملة</strong><span>مع بوابات دفع آمنة</span></div>
+        <i class="fas fa-arrow-left hv-arrow"></i>
+      </div>
+      <div class="hv-card" onclick="waService('تحسين SEO')">
+        <div class="hv-icon">📈</div>
+        <div class="hv-text"><strong>تحسين SEO وجوجل</strong><span>ظهور متصدر في البحث</span></div>
+        <i class="fas fa-arrow-left hv-arrow"></i>
+      </div>
+      <div class="hv-card" onclick="waService('تطبيق جوال')">
+        <div class="hv-icon">📱</div>
+        <div class="hv-text"><strong>تطبيقات جوال</strong><span>iOS و Android</span></div>
+        <i class="fas fa-arrow-left hv-arrow"></i>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stats-wrap">
+    <div><div class="stat-num" data-t="250">0</div><div class="stat-lbl">مشروع منجز</div></div>
+    <div><div class="stat-num" data-t="180">0</div><div class="stat-lbl">عميل سعيد</div></div>
+    <div><div class="stat-num" data-t="7">0</div><div class="stat-lbl">سنوات خبرة</div></div>
+    <div><div class="stat-num" data-t="98">0</div><div class="stat-lbl">% رضا العملاء</div></div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="sec-wrap">
+    <div class="sec-head">
+      <span class="sec-tag">خدماتنا</span>
+      <h2 class="sec-title">كل ما تحتاجه <span>رقمياً</span></h2>
+      <p class="sec-sub">حلول متكاملة من التصميم حتى التسويق — كل شيء في مكان واحد</p>
+    </div>
+    <div class="srv-grid">
+      <div class="srv-card">
+        <div class="srv-ico">🌐</div>
+        <h3>تصميم مواقع احترافية</h3>
+        <p>موقع يعكس هوية علامتك التجارية بتصميم فريد، سريع التحميل، ومتجاوب مع كل الأجهزة. نبني مواقع تبيع.</p>
+        <a href="javascript:void(0)" class="srv-cta" onclick="waService('تصميم موقع احترافي')">اطلب الخدمة <i class="fas fa-arrow-left"></i></a>
+      </div>
+      <div class="srv-card">
+        <div class="srv-ico">🛒</div>
+        <h3>متاجر إلكترونية متكاملة</h3>
+        <p>متجر احترافي بنظام إدارة سهل، بوابات دفع آمنة (فيزا، فودافون، تحويل)، وتجربة تسوق تحوّل الزائر لمشتري.</p>
+        <a href="javascript:void(0)" class="srv-cta" onclick="waService('تصميم متجر إلكتروني متكامل')">اطلب الخدمة <i class="fas fa-arrow-left"></i></a>
+      </div>
+      <div class="srv-card">
+        <div class="srv-ico">🔍</div>
+        <h3>تحسين SEO ومحركات البحث</h3>
+        <p>نضمن ظهور موقعك في أول صفحة جوجل بكلمات بحث يستخدمها عملاؤك. نتائج حقيقية وليس وعوداً.</p>
+        <a href="javascript:void(0)" class="srv-cta" onclick="waService('تحسين SEO ومحركات البحث')">اطلب الخدمة <i class="fas fa-arrow-left"></i></a>
+      </div>
+      <div class="srv-card">
+        <div class="srv-ico">📱</div>
+        <h3>تطبيقات جوال iOS & Android</h3>
+        <p>تطبيق يجعل عملاءك دائماً على تواصل مع علامتك التجارية. تجربة مستخدم سلسة وتصميم عصري.</p>
+        <a href="javascript:void(0)" class="srv-cta" onclick="waService('تصميم تطبيق جوال')">اطلب الخدمة <i class="fas fa-arrow-left"></i></a>
+      </div>
+      <div class="srv-card">
+        <div class="srv-ico">🎯</div>
+        <h3>التسويق الرقمي والإعلانات</h3>
+        <p>حملات إعلانية مدروسة على جوجل وفيسبوك وإنستجرام تجلب عملاء حقيقيين بأفضل عائد استثمار.</p>
+        <a href="javascript:void(0)" class="srv-cta" onclick="waService('التسويق الرقمي والإعلانات')">اطلب الخدمة <i class="fas fa-arrow-left"></i></a>
+      </div>
+      <div class="srv-card">
+        <div class="srv-ico">☁️</div>
+        <h3>استضافة ودعم فني متكامل</h3>
+        <p>استضافة عالية الأداء مع دعم فني على مدار الساعة. موقعك لن يتوقف، ومشاكلك ستُحل في دقائق.</p>
+        <a href="javascript:void(0)" class="srv-cta" onclick="waService('الاستضافة والدعم الفني')">اطلب الخدمة <i class="fas fa-arrow-left"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section style="background:rgba(255,255,255,0.015);">
+  <div class="sec-wrap">
+    <div class="sec-head">
+      <span class="sec-tag">كيف نعمل</span>
+      <h2 class="sec-title">من الفكرة <span>إلى الإطلاق</span></h2>
+      <p class="sec-sub">4 خطوات واضحة، مواعيد محددة، ونتيجة تتجاوز توقعاتك</p>
+    </div>
+    <div class="proc-grid">
+      <div class="proc-card">
+        <div class="proc-num">١</div>
+        <h3>استشارة مجانية</h3>
+        <p>نفهم أهدافك ونحلل احتياجاتك لوضع خطة واضحة</p>
+      </div>
+      <div class="proc-card">
+        <div class="proc-num">٢</div>
+        <h3>تصميم وموافقة</h3>
+        <p>نقدم تصميم أولي كامل — تعدّل حتى ترضى 100%</p>
+      </div>
+      <div class="proc-card">
+        <div class="proc-num">٣</div>
+        <h3>تطوير وبرمجة</h3>
+        <p>نبرمج موقعك بأحدث التقنيات بأعلى معايير الأداء</p>
+      </div>
+      <div class="proc-card">
+        <div class="proc-num">٤</div>
+        <h3>تسليم وإطلاق</h3>
+        <p>اختبار كامل ثم إطلاق موقعك مع تدريب مجاني</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <div class="sec-wrap">
+    <div class="sec-head">
+      <span class="sec-tag">أعمالنا</span>
+      <h2 class="sec-title">مشاريع <span>حقيقية</span> نفتخر بها</h2>
+      <p class="sec-sub">من مصر للخليج — نماذج من أعمالنا في قطاعات متنوعة</p>
+    </div>
+    <div class="port-grid">
+      <div class="port-card" onclick="waService('متجر إلكتروني مثل متجر الأزياء')">
+        <div class="port-thumb">🏪</div>
+        <div class="port-body">
+          <h3>متجر الأزياء الفاخرة</h3>
+          <div class="port-cat">متجر إلكتروني — القاهرة</div>
+          <div class="port-tags"><span class="port-tag">WooCommerce</span><span class="port-tag">دفع إلكتروني</span><span class="port-tag">SEO</span></div>
+        </div>
+      </div>
+      <div class="port-card" onclick="waService('موقع طبي مثل موقع العيادات')">
+        <div class="port-thumb">🏥</div>
+        <div class="port-body">
+          <h3>عيادات الدكتور أحمد</h3>
+          <div class="port-cat">موقع طبي — الإسكندرية</div>
+          <div class="port-tags"><span class="port-tag">حجز مواعيد</span><span class="port-tag">متجاوب</span><span class="port-tag">SEO</span></div>
+        </div>
+      </div>
+      <div class="port-card" onclick="waService('موقع شركة عقارات')">
+        <div class="port-thumb">🏗️</div>
+        <div class="port-body">
+          <h3>مجموعة النيل العقارية</h3>
+          <div class="port-cat">موقع شركة — دبي</div>
+          <div class="port-tags"><span class="port-tag">عقارات</span><span class="port-tag">خرائط</span><span class="port-tag">CRM</span></div>
+        </div>
+      </div>
+      <div class="port-card" onclick="waService('موقع طلب أونلاين للمطعم')">
+        <div class="port-thumb">🍕</div>
+        <div class="port-body">
+          <h3>مطعم لا بيتزا</h3>
+          <div class="port-cat">طلب أونلاين — الرياض</div>
+          <div class="port-tags"><span class="port-tag">أوردر أونلاين</span><span class="port-tag">قائمة</span><span class="port-tag">تطبيق</span></div>
+        </div>
+      </div>
+      <div class="port-card" onclick="waService('منصة تعليمية')">
+        <div class="port-thumb">📚</div>
+        <div class="port-body">
+          <h3>منصة تعليم برايت</h3>
+          <div class="port-cat">منصة تعليمية — الكويت</div>
+          <div class="port-tags"><span class="port-tag">LMS</span><span class="port-tag">فيديو</span><span class="port-tag">اشتراكات</span></div>
+        </div>
+      </div>
+      <div class="port-card" onclick="waService('موقع سبا وتجميل')">
+        <div class="port-thumb">💆</div>
+        <div class="port-body">
+          <h3>سبا لوتس</h3>
+          <div class="port-cat">سبا وتجميل — جدة</div>
+          <div class="port-tags"><span class="port-tag">حجز</span><span class="port-tag">تصميم فاخر</span><span class="port-tag">موبايل</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECH -->
+<section style="background:rgba(255,255,255,0.015);">
+  <div class="sec-wrap">
+    <div class="sec-head">
+      <span class="sec-tag">تقنياتنا</span>
+      <h2 class="sec-title">نستخدم <span>الأفضل دائماً</span></h2>
+    </div>
+    <div class="tech-wrap">
+      <div class="tech"><i class="fab fa-wordpress"></i> WordPress</div>
+      <div class="tech"><i class="fab fa-shopify"></i> Shopify</div>
+      <div class="tech"><i class="fab fa-react"></i> React</div>
+      <div class="tech"><i class="fab fa-laravel"></i> Laravel</div>
+      <div class="tech"><i class="fab fa-node-js"></i> Node.js</div>
+      <div class="tech"><i class="fab fa-html5"></i> HTML5 / CSS3</div>
+      <div class="tech"><i class="fab fa-js"></i> JavaScript</div>
+      <div class="tech"><i class="fas fa-database"></i> MySQL</div>
+      <div class="tech"><i class="fab fa-aws"></i> AWS</div>
+      <div class="tech"><i class="fas fa-shield-alt"></i> SSL Security</div>
+      <div class="tech"><i class="fab fa-google"></i> Google SEO</div>
+      <div class="tech"><i class="fas fa-tachometer-alt"></i> PageSpeed</div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="whyus">
+  <div class="sec-wrap">
+    <div class="sec-head">
+      <span class="sec-tag">لماذا نيكسورا؟</span>
+      <h2 class="sec-title">ما يميزنا <span>عن الجميع</span></h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card"><div class="why-num">24/7</div><h3>دعم لا يتوقف</h3><p>فريق متخصص متاح دائماً لحل أي مشكلة فوراً</p></div>
+      <div class="why-card"><div class="why-num">14</div><h3>يوم ضمان</h3><p>استرداد كامل إذا لم تكن راضياً 100%</p></div>
+      <div class="why-card"><div class="why-num">×3</div><h3>مراجعات مجانية</h3><p>ثلاث مراجعات بعد التسليم لضمان رضاك</p></div>
+      <div class="why-card"><div class="why-num">100%</div><h3>التزام بالموعد</h3><p>نسلّم في الوقت المحدد — بدون تأخير</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" style="background:rgba(255,255,255,0.015);">
+  <div class="sec-wrap">
+    <div class="sec-head">
+      <span class="sec-tag">الأسعار</span>
+      <h2 class="sec-title">باقات <span>تناسب ميزانيتك</span></h2>
+      <p class="sec-sub">أسعار شفافة بدون رسوم مخفية — تدفع مرة وتملك موقعك للأبد</p>
+    </div>
+    <div class="price-grid">
+      <div class="price-card">
+        <div class="price-name">⭐ الباقة الأساسية</div>
+        <div class="price-val">3,500</div>
+        <div class="price-note">جنيه · دفع مرة واحدة</div>
+        <ul class="price-feats">
+          <li><i class="fas fa-check"></i> موقع حتى 5 صفحات</li>
+          <li><i class="fas fa-check"></i> تصميم متجاوب</li>
+          <li><i class="fas fa-check"></i> نموذج تواصل</li>
+          <li><i class="fas fa-check"></i> SEO أساسي</li>
+          <li><i class="fas fa-check"></i> استضافة سنة مجاناً</li>
+          <li class="off"><i class="fas fa-times"></i> متجر إلكتروني</li>
+          <li class="off"><i class="fas fa-times"></i> لوحة تحكم</li>
+        </ul>
+        <button class="price-btn outline" onclick="waService('الباقة الأساسية - 3500 جنيه')">اطلب الباقة</button>
+      </div>
+      <div class="price-card hot">
+        <span class="price-badge">🔥 الأكثر طلباً</span>
+        <div class="price-name">🚀 الباقة الاحترافية</div>
+        <div class="price-val">8,500</div>
+        <div class="price-note">جنيه · دفع مرة واحدة</div>
+        <ul class="price-feats">
+          <li><i class="fas fa-check"></i> حتى 15 صفحة</li>
+          <li><i class="fas fa-check"></i> تصميم مخصص فريد</li>
+          <li><i class="fas fa-check"></i> لوحة تحكم سهلة</li>
+          <li><i class="fas fa-check"></i> SEO متقدم + تقرير</li>
+          <li><i class="fas fa-check"></i> CDN + سرعة عالية</li>
+          <li><i class="fas fa-check"></i> استضافة سنة مجاناً</li>
+          <li><i class="fas fa-check"></i> دعم فني 3 أشهر</li>
+        </ul>
+        <button class="price-btn" onclick="waService('الباقة الاحترافية - 8500 جنيه')">اطلب الباقة</button>
+      </div>
+      <div class="price-card">
+        <div class="price-name">🛒 باقة المتجر</div>
+        <div class="price-val">14,000</div>
+        <div class="price-note">جنيه · دفع مرة واحدة</div>
+        <ul class="price-feats">
+          <li><i class="fas fa-check"></i> منتجات غير محدودة</li>
+          <li><i class="fas fa-check"></i> بوابات دفع متعددة</li>
+          <li><i class="fas fa-check"></i> إدارة مخزون</li>
+          <li><i class="fas fa-check"></i> كوبونات وخصومات</li>
+          <li><i class="fas fa-check"></i> تتبع الشحن</li>
+          <li><i class="fas fa-check"></i> تقارير المبيعات</li>
+          <li><i class="fas fa-check"></i> دعم فني 6 أشهر</li>
+        </ul>
+        <button class="price-btn outline" onclick="waService('باقة المتجر الإلكتروني - 14000 جنيه')">اطلب الباقة</button>
+      </div>
+    </div>
+    <p style="text-align:center;margin-top:1.5rem;font-size:.85rem;color:var(--muted);">
+      <i class="fas fa-info-circle" style="color:var(--blue)"></i>
+      الأسعار تقريبية — تواصل معنا للحصول على عرض مخصص لمشروعك
+    </p>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="sec-wrap">
+    <div class="sec-head">
+      <span class="sec-tag">آراء العملاء</span>
+      <h2 class="sec-title">عملاؤنا <span>يتكلمون</span></h2>
+    </div>
+    <div class="rev-grid">
+      <div class="rev-card">
+        <div class="rev-stars">★★★★★</div>
+        <p class="rev-text">نيكسورا غيّرت متجرنا بالكامل. المبيعات ارتفعت 3 أضعاف في أول شهرين. فريق محترف ومتجاوب.</p>
+        <div class="rev-author"><div class="rev-av">م</div><div><div class="rev-name">محمد السيد</div><div class="rev-pos">صاحب متجر ملابس — القاهرة</div></div></div>
+      </div>
+      <div class="rev-card">
+        <div class="rev-stars">★★★★★</div>
+        <p class="rev-text">طلبت موقع لعيادتي وجاء فوق توقعاتي. التصميم أنيق والحجوزات أونلاين وفّرت وقتاً كبيراً.</p>
+        <div class="rev-author"><div class="rev-av">د</div><div><div class="rev-name">د. نور الهدى</div><div class="rev-pos">طبيبة أسنان — الإسكندرية</div></div></div>
+      </div>
+      <div class="rev-card">
+        <div class="rev-stars">★★★★★</div>
+        <p class="rev-text">الدعم الفني ممتاز — ردوا على استفساري في دقائق. الموقع سريع وشكله احترافي.</p>
+        <div class="rev-author"><div class="rev-av">أ</div><div><div class="rev-name">أحمد الشريف</div><div class="rev-pos">مدير شركة عقارات — دبي</div></div></div>
+      </div>
+      <div class="rev-card">
+        <div class="rev-stars">★★★★★</div>
+        <p class="rev-text">سلّموا قبل الموعد بيومين وكل شيء تمام. ما كنت أتوقع إن الشغل يطلع بالمستوى ده!</p>
+        <div class="rev-author"><div class="rev-av">س</div><div><div class="rev-name">سارة محمود</div><div class="rev-pos">صاحبة براند كوزمتيكس — الرياض</div></div></div>
+      </div>
+      <div class="rev-card">
+        <div class="rev-stars">★★★★★</div>
+        <p class="rev-text">منصة تعليمية كاملة والنتيجة فاقت توقعاتي. تقنيات حديثة وواجهة سلسة جداً.</p>
+        <div class="rev-author"><div class="rev-av">ع</div><div><div class="rev-name">عمر حسن</div><div class="rev-pos">مؤسس منصة تعليمية — الكويت</div></div></div>
+      </div>
+      <div class="rev-card">
+        <div class="rev-stars">★★★★★</div>
+        <p class="rev-text">نيكسورا حلّت كل مشاكل متجري وأضافت ميزات جديدة. المبيعات الآن مستمرة ومتصاعدة.</p>
+        <div class="rev-author"><div class="rev-av">ل</div><div><div class="rev-name">لمياء الفهد</div><div class="rev-pos">صاحبة متجر عطور — جدة</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" style="background:rgba(255,255,255,0.015);">
+  <div class="sec-wrap">
+    <div class="sec-head">
+      <span class="sec-tag">الأسئلة الشائعة</span>
+      <h2 class="sec-title">كل <span>أسئلتك</span> هنا</h2>
+    </div>
+    <div class="faq-box">
+      <div class="faq-item">
+        <div class="faq-q">كم يستغرق تصميم الموقع؟ <i class="fas fa-chevron-down faq-ic"></i></div>
+        <div class="faq-a">مواقع الشركات 7-10 أيام عمل، المتاجر الإلكترونية 14-21 يوم. نلتزم دائماً بالموعد المحدد مسبقاً.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">هل أقدر أدير موقعي بنفسي بعد التسليم؟ <i class="fas fa-chevron-down faq-ic"></i></div>
+        <div class="faq-a">نعم، نسلّمك موقعاً بلوحة تحكم سهلة مع فيديوهات شرح مجانية. تقدر تضيف محتوى وتعدّل بدون أي خبرة تقنية.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">كم تكلفة تصميم الموقع؟ <i class="fas fa-chevron-down faq-ic"></i></div>
+        <div class="faq-a">الأسعار تبدأ من 3,500 جنيه للمواقع الأساسية وتصل لـ 14,000+ للمتاجر المتكاملة. تواصل معنا للحصول على عرض مخصص لمشروعك.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">ما هي طرق الدفع المتاحة؟ <i class="fas fa-chevron-down faq-ic"></i></div>
+        <div class="faq-a">نقبل التحويل البنكي، فودافون كاش، إنستاباي، وبطاقات ائتمان. النظام 50% مقدم عند بدء العمل و50% عند التسليم.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">هل تعملون مع عملاء في السعودية والخليج؟ <i class="fas fa-chevron-down faq-ic"></i></div>
+        <div class="faq-a">بالطبع! نخدم مصر، السعودية، الإمارات، الكويت، قطر، البحرين، وعُمان. التواصل كامل أونلاين والدفع بتحويل دولي.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">ماذا لو مش عاجبني الشغل؟ <i class="fas fa-chevron-down faq-ic"></i></div>
+        <div class="faq-a">نقدم 3 مراجعات مجانية بعد التسليم لضمان رضاك التام. وفي حال عدم الرضا، لدينا ضمان استرداد 14 يوم.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section id="blog" style="background:rgba(255,255,255,0.015);">
+  <div class="sec-wrap">
+    <div class="sec-head">
+      <span class="sec-tag">المدونة</span>
+      <h2 class="sec-title">مقالات <span>تفيدك فعلاً</span></h2>
+      <p class="sec-sub">دليل عملي لكل من يريد بناء حضور رقمي قوي في مصر والخليج</p>
+    </div>
+    <div class="blog-grid">
+
+      <a href="افضل-شركة-تصميم-مواقع-في-مصر.html" class="blog-card">
+        <div class="blog-thumb">🏆</div>
+        <div class="blog-body">
+          <span class="blog-tag">تصميم مواقع</span>
+          <h3>أفضل شركة تصميم مواقع في مصر 2025 — دليلك الشامل للاختيار الصح</h3>
+          <p>7 معايير تحدد الشركة الموثوقة، مقارنة الأسعار، والأسئلة اللي لازم تسألها قبل ما تدفع أي فلوس.</p>
+          <div class="blog-meta">
+            <span><i class="fas fa-calendar" style="margin-left:.3rem"></i> مايو 2025</span>
+            <span class="blog-read"><i class="fas fa-book-open"></i> 8 دقائق <i class="fas fa-arrow-left" style="margin-right:.3rem"></i></span>
+          </div>
+        </div>
+      </a>
+
+      <a href="تصميم-متجر-الكتروني-في-مصر.html" class="blog-card">
+        <div class="blog-thumb">🛒</div>
+        <div class="blog-body">
+          <span class="blog-tag">متاجر إلكترونية</span>
+          <h3>تصميم متجر إلكتروني في مصر 2025 — كيف تبني متجر يبيع فعلاً</h3>
+          <p>مقارنة Shopify vs WooCommerce، بوابات الدفع المصرية، والأخطاء اللي بتخسّر المتاجر عملاءها.</p>
+          <div class="blog-meta">
+            <span><i class="fas fa-calendar" style="margin-left:.3rem"></i> مايو 2025</span>
+            <span class="blog-read"><i class="fas fa-book-open"></i> 10 دقائق <i class="fas fa-arrow-left" style="margin-right:.3rem"></i></span>
+          </div>
+        </div>
+      </a>
+
+      <a href="تحسين-seo-في-مصر.html" class="blog-card">
+        <div class="blog-thumb">📈</div>
+        <div class="blog-body">
+          <span class="blog-tag">SEO وجوجل</span>
+          <h3>دليل SEO الشامل للمواقع العربية 2025 — كيف تظهر في أول جوجل</h3>
+          <p>أعمدة SEO الأربعة، أهم كلمات البحث في مصر، وكيف تحصل على زيارات مجانية من جوجل.</p>
+          <div class="blog-meta">
+            <span><i class="fas fa-calendar" style="margin-left:.3rem"></i> مايو 2025</span>
+            <span class="blog-read"><i class="fas fa-book-open"></i> 12 دقيقة <i class="fas fa-arrow-left" style="margin-right:.3rem"></i></span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="cta-strip">
+  <div class="sec-wrap">
+    <h2 class="sec-title">جاهز تبدأ <span>مشروعك</span>؟</h2>
+    <p>استشارة مجانية الآن — نحلل مشروعك ونقترح الحل المناسب بدون أي إلزام</p>
+    <div class="cta-btns">
+      <a href="https://wa.me/201068204700?text=مرحباً،%20أريد%20استشارة%20مجانية%20لمشروعي" class="btn btn-primary" target="_blank"><i class="fab fa-whatsapp"></i> احصل على استشارة مجانية</a>
+      <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> أرسل تفاصيل مشروعك</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="sec-wrap">
+    <div class="sec-head">
+      <span class="sec-tag">تواصل معنا</span>
+      <h2 class="sec-title">نحن <span>هنا لك</span></h2>
+      <p class="sec-sub">أرسل تفاصيل مشروعك وسنتواصل معك خلال ساعات</p>
+    </div>
+    <div class="contact-wrap">
+      <div class="contact-info">
+        <h3>نبني شيئاً رائعاً معاً</h3>
+        <p>سواء مشروعك صغير أو كبير، لدينا الحل المناسب. تواصل معنا الآن واحصل على استشارة مجانية.</p>
+        <div class="contact-btns">
+          <a href="https://wa.me/201068204700?text=مرحباً،%20أريد%20الاستفسار%20عن%20خدماتكم" class="cbt" target="_blank">
+            <div class="cbt-ico wa"><i class="fab fa-whatsapp"></i></div>
+            <div><div class="cbt-lbl">واتساب (رد فوري)</div><div class="cbt-val">+20 106 820 4700</div></div>
+          </a>
+          <a href="mailto:khaledhassan10@gmil.com" class="cbt">
+            <div class="cbt-ico em"><i class="fas fa-envelope"></i></div>
+            <div><div class="cbt-lbl">البريد الإلكتروني</div><div class="cbt-val">khaledhassan10@gmil.com</div></div>
+          </a>
+          <a href="tel:+201068204700" class="cbt">
+            <div class="cbt-ico ph"><i class="fas fa-phone"></i></div>
+            <div><div class="cbt-lbl">اتصل مباشرة</div><div class="cbt-val">+20 106 820 4700</div></div>
+          </a>
+        </div>
+      </div>
+      <div class="form-card">
+        <form onsubmit="sendForm(event)">
+          <div class="form-row">
+            <div class="fg"><label>الاسم *</label><input type="text" id="f_name" placeholder="محمد أحمد" required></div>
+            <div class="fg"><label>الهاتف *</label><input type="tel" id="f_phone" placeholder="+20 100 000 0000" required></div>
+          </div>
+          <div class="fg"><label>نوع المشروع *</label>
+            <select id="f_type" required onchange="updateMsg()">
+              <option value="">اختر نوع المشروع</option>
+              <option>موقع شركة / مؤسسة</option>
+              <option>متجر إلكتروني</option>
+              <option>موقع شخصي / محفظة أعمال</option>
+              <option>منصة تعليمية</option>
+              <option>تطبيق جوال</option>
+              <option>تحسين SEO</option>
+              <option>تسويق رقمي</option>
+              <option>صيانة موقع</option>
+              <option>أخرى</option>
+            </select>
+          </div>
+          <div class="fg"><label>الميزانية التقريبية</label>
+            <select id="f_budget">
+              <option value="">اختر الميزانية</option>
+              <option>أقل من 5,000 جنيه</option>
+              <option>5,000 - 10,000 جنيه</option>
+              <option>10,000 - 20,000 جنيه</option>
+              <option>أكثر من 20,000 جنيه</option>
+              <option>لم أحدد بعد</option>
+            </select>
+          </div>
+          <div class="fg"><label>تفاصيل المشروع</label>
+            <textarea id="f_details" placeholder="أخبرنا عن مشروعك وأهدافك..."></textarea>
+          </div>
+          <button type="submit" class="form-submit"><i class="fab fa-whatsapp"></i> إرسال عبر واتساب</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-grid">
+    <div class="foot-brand">
+      <span class="logo">NEXORA</span>
+      <p>وكالة رقمية متكاملة في مصر والخليج. تصميم مواقع، متاجر إلكترونية، SEO، وتسويق رقمي منذ 2018.</p>
+      <div class="socials">
+        <a href="#" class="soc"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="soc"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="soc"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="soc"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+    <div class="foot-col">
+      <h4>خدماتنا</h4>
+      <ul class="foot-links">
+        <li><a href="#services">تصميم المواقع</a></li>
+        <li><a href="#services">المتاجر الإلكترونية</a></li>
+        <li><a href="#services">تطبيقات الجوال</a></li>
+        <li><a href="#services">تحسين SEO</a></li>
+        <li><a href="#services">التسويق الرقمي</a></li>
+      </ul>
+    </div>
+    <div class="foot-col">
+      <h4>روابط سريعة</h4>
+      <ul class="foot-links">
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#portfolio">أعمالنا</a></li>
+        <li><a href="#pricing">الأسعار</a></li>
+        <li><a href="#reviews">آراء العملاء</a></li>
+        <li><a href="#blog">المدونة</a></li>
+        <li><a href="#contact">تواصل معنا</a></li>
+      </ul>
+    </div>
+    <div class="foot-col">
+      <h4>من المدونة</h4>
+      <ul class="foot-links">
+        <li><a href="افضل-شركة-تصميم-مواقع-في-مصر.html">أفضل شركة تصميم مواقع في مصر</a></li>
+        <li><a href="تصميم-متجر-الكتروني-في-مصر.html">تصميم متجر إلكتروني في مصر</a></li>
+        <li><a href="تحسين-seo-في-مصر.html">تحسين SEO للمواقع العربية</a></li>
+      </ul>
+    </div>
+      <ul class="foot-links">
+        <li><a href="#">مصر</a></li>
+        <li><a href="#">السعودية</a></li>
+        <li><a href="#">الإمارات</a></li>
+        <li><a href="#">الكويت</a></li>
+        <li><a href="#">قطر</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>© 2025 NEXORA. جميع الحقوق محفوظة.</span>
+    <span>صُنع بـ ❤️ في مصر | <a href="#">سياسة الخصوصية</a></span>
+  </div>
+</footer>
+
+<script>
+// Nav scroll
+window.addEventListener('scroll',()=>{
+  document.getElementById('nav').classList.toggle('scrolled',scrollY>40);
+  document.getElementById('sup').classList.toggle('show',scrollY>400);
+});
+
+// Hamburger
+document.getElementById('hbg').addEventListener('click',()=>
+  document.getElementById('navlinks').classList.toggle('open'));
+document.querySelectorAll('#navlinks a').forEach(a=>
+  a.addEventListener('click',()=>document.getElementById('navlinks').classList.remove('open')));
+
+// FAQ
+document.querySelectorAll('.faq-q').forEach(q=>{
+  q.addEventListener('click',()=>{
+    const it=q.parentElement, was=it.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));
+    if(!was)it.classList.add('open');
+  });
+});
+
+// Counters
+function runCounters(){
+  document.querySelectorAll('[data-t]').forEach(el=>{
+    const t=+el.dataset.t; let c=0; const s=t/60;
+    const iv=setInterval(()=>{
+      c+=s; if(c>=t){c=t;clearInterval(iv);}
+      el.textContent=Math.floor(c)+(el.dataset.t==='98'?'':'﹢');
+    },18);
+  });
+}
+new IntersectionObserver((e,o)=>{if(e[0].isIntersecting){runCounters();o.disconnect();}},{threshold:.5})
+  .observe(document.querySelector('.stats'));
+
+// Toast
+function toast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg; t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),3500);
+}
+
+// WhatsApp open with custom message
+function waService(service){
+  const msg=encodeURIComponent(`مرحباً نيكسورا 👋\nأنا مهتم بخدمة: ${service}\nأرجو التواصل معي لمعرفة التفاصيل.`);
+  window.open(`https://wa.me/201068204700?text=${msg}`,'_blank');
+}
+
+// Form send to WhatsApp
+function sendForm(e){
+  e.preventDefault();
+  const name=document.getElementById('f_name').value;
+  const phone=document.getElementById('f_phone').value;
+  const type=document.getElementById('f_type').value;
+  const budget=document.getElementById('f_budget').value;
+  const details=document.getElementById('f_details').value;
+  const msg=`مرحباً نيكسورا 👋\n\n👤 الاسم: ${name}\n📞 الهاتف: ${phone}\n🎯 المشروع: ${type}\n💰 الميزانية: ${budget||'غير محددة'}\n📝 التفاصيل: ${details||'—'}`;
+  window.open(`https://wa.me/201068204700?text=${encodeURIComponent(msg)}`,'_blank');
+  toast('✅ جاري فتح واتساب...');
+  e.target.reset();
+}
+
+// Update form msg on service change
+function updateMsg(){}
+
+// Schema.org SEO
+const schema={
+  "@context":"https://schema.org",
+  "@type":"ProfessionalService",
+  "name":"NEXORA نيكسورا",
+  "description":"أفضل شركة تصميم مواقع ومتاجر إلكترونية في مصر والخليج",
+  "telephone":"+201068204700",
+  "email":"khaledhassan10@gmil.com",
+  "areaServed":["مصر","السعودية","الإمارات","الكويت"],
+  "priceRange":"$$"
+};
+const s=document.createElement('script');
+s.type='application/ld+json';
+s.text=JSON.stringify(schema);
+document.head.appendChild(s);
+</script>
+</body>
+</html>
